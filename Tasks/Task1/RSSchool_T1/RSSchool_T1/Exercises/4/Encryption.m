@@ -5,7 +5,7 @@
 // Complete the encryption function below.
 - (NSString *)encryption:(NSString *)string {
     
-    double square = [string length];
+    double square = sqrt([string length]);
     double sqrtValue = floor(square);
     double ceilValue = ceil(square);
     int rowCount = sqrtValue;
