@@ -31,7 +31,6 @@
   XCTAssertEqual(assimilationInfo.hours, 15);
   XCTAssertEqual(assimilationInfo.minutes, 13);
   XCTAssertEqual(assimilationInfo.seconds, 37);
-  XCTAssertEqual(assimilationInfo.dateString, @"2019:03:26@00\\00/12");
 }
 
 - (void)test3 {
@@ -43,7 +42,6 @@
   XCTAssertEqual(assimilationInfo.hours, -20);
   XCTAssertEqual(assimilationInfo.minutes, -46);
   XCTAssertEqual(assimilationInfo.seconds, -23);
-  XCTAssertEqual(assimilationInfo.dateString, @"2219:01:01@00\\00/00");
 }
 
 @end
