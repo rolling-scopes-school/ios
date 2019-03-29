@@ -21,7 +21,6 @@
  Output: Sunday, August 14, 2208
  */
 @protocol AssimilationInfo <NSObject>
-@property (nonatomic, readonly) NSString *dateString;
 @property (nonatomic, readonly) NSInteger years;
 @property (nonatomic, readonly) NSInteger months;
 @property (nonatomic, readonly) NSInteger weeks;
