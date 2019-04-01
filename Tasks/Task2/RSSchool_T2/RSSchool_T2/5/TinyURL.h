@@ -17,6 +17,8 @@
  @return encoded URL
  */
 - (NSURL *)encode:(NSURL *)originalURL;
+
+
 /**
  Taken an encoded URL and returns its original form
 
