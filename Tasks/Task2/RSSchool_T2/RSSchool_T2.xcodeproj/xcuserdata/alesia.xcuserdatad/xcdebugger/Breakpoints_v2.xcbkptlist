@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T2/2/RomanTranslator.m"
+            timestampString = "575818864.5868551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "-romanFromArabic:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RomanTranslator romanFromArabic:]"
+                  moduleName = "RSSchool_T2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alesia/Desktop/ios/Tasks/Task2/RSSchool_T2/RSSchool_T2/2/RomanTranslator.m"
+                  timestampString = "575723102.819872"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "671">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RomanTranslator romanFromArabic:]"
+                  moduleName = "RSSchool_T2Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alesia/Desktop/ios/Tasks/Task2/RSSchool_T2/RSSchool_T2/2/RomanTranslator.m"
+                  timestampString = "575723103.372571"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "671">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

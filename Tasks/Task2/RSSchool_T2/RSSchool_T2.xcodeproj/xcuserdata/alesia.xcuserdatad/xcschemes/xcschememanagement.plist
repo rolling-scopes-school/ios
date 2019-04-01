@@ -6,8 +6,23 @@
 	<dict>
 		<key>RSSchool_T2.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E38F8D91224A3CDE009EF306</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E38F8DA9224A3CE0009EF306</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
