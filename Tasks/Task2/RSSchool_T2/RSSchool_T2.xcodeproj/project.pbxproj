@@ -12,20 +12,21 @@
 		E38F8D9F224A3CE0009EF306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38F8D9E224A3CE0009EF306 /* Assets.xcassets */; };
 		E38F8DA2224A3CE0009EF306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38F8DA0224A3CE0009EF306 /* LaunchScreen.storyboard */; };
 		E38F8DA5224A3CE0009EF306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DA4224A3CE0009EF306 /* main.m */; };
-		E38F8DBB224A3EF0009EF306 /* KidnapperNote.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DBA224A3EF0009EF306 /* KidnapperNote.m */; };
 		E38F8DC0224A41A4009EF306 /* KidnapperNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DBF224A41A4009EF306 /* KidnapperNoteTests.m */; };
-		E38F8DC9224A4825009EF306 /* RomanTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DC8224A4825009EF306 /* RomanTranslator.m */; };
-		E38F8DCA224A4825009EF306 /* RomanTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DC8224A4825009EF306 /* RomanTranslator.m */; };
 		E38F8DCF224A7EE2009EF306 /* RomanTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DCE224A7EE2009EF306 /* RomanTranslatorTests.m */; };
 		E38F8DD2224A8AEA009EF306 /* DoomsdayMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DD1224A8AEA009EF306 /* DoomsdayMachine.m */; };
 		E38F8DD6224A8B08009EF306 /* DoomsdayMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DD5224A8B08009EF306 /* DoomsdayMachineTests.m */; };
-		E38F8DD7224B8A77009EF306 /* DoomsdayMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DD1224A8AEA009EF306 /* DoomsdayMachine.m */; };
 		E38F8DDA224BA508009EF306 /* MatrixHacker.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DD9224BA508009EF306 /* MatrixHacker.m */; };
 		E38F8DDB224BA508009EF306 /* MatrixHacker.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DD9224BA508009EF306 /* MatrixHacker.m */; };
 		E38F8DDE224BA528009EF306 /* MatrixHackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DDD224BA528009EF306 /* MatrixHackerTests.m */; };
 		E38F8DE1224D0B8F009EF306 /* TinyURL.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DE0224D0B8F009EF306 /* TinyURL.m */; };
 		E38F8DE2224D0B8F009EF306 /* TinyURL.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DE0224D0B8F009EF306 /* TinyURL.m */; };
 		E38F8DE5224D1296009EF306 /* TinyURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DE4224D1296009EF306 /* TinyURLTests.m */; };
+		F88251C5224E59DB00EE2DA2 /* KidnapperNote.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DBA224A3EF0009EF306 /* KidnapperNote.m */; };
+		F88251C8224E5A3000EE2DA2 /* DoomsdayMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DD1224A8AEA009EF306 /* DoomsdayMachine.m */; };
+		F88251C9224E5A5A00EE2DA2 /* RomanTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DC8224A4825009EF306 /* RomanTranslator.m */; };
+		F88251CA224E5A5B00EE2DA2 /* RomanTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DC8224A4825009EF306 /* RomanTranslator.m */; };
+		F8913A38224E63CD00C24095 /* KidnapperNote.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DBA224A3EF0009EF306 /* KidnapperNote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -291,11 +292,11 @@
 				E38F8D9A224A3CDE009EF306 /* ViewController.m in Sources */,
 				E38F8DD2224A8AEA009EF306 /* DoomsdayMachine.m in Sources */,
 				E38F8DDA224BA508009EF306 /* MatrixHacker.m in Sources */,
+				F88251CA224E5A5B00EE2DA2 /* RomanTranslator.m in Sources */,
 				E38F8DE1224D0B8F009EF306 /* TinyURL.m in Sources */,
 				E38F8DA5224A3CE0009EF306 /* main.m in Sources */,
-				E38F8DBB224A3EF0009EF306 /* KidnapperNote.m in Sources */,
 				E38F8D97224A3CDE009EF306 /* AppDelegate.m in Sources */,
-				E38F8DC9224A4825009EF306 /* RomanTranslator.m in Sources */,
+				F88251C5224E59DB00EE2DA2 /* KidnapperNote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +305,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38F8DC0224A41A4009EF306 /* KidnapperNoteTests.m in Sources */,
-				E38F8DD7224B8A77009EF306 /* DoomsdayMachine.m in Sources */,
+				F88251C8224E5A3000EE2DA2 /* DoomsdayMachine.m in Sources */,
+				F8913A38224E63CD00C24095 /* KidnapperNote.m in Sources */,
 				E38F8DCF224A7EE2009EF306 /* RomanTranslatorTests.m in Sources */,
 				E38F8DE2224D0B8F009EF306 /* TinyURL.m in Sources */,
 				E38F8DD6224A8B08009EF306 /* DoomsdayMachineTests.m in Sources */,
 				E38F8DE5224D1296009EF306 /* TinyURLTests.m in Sources */,
 				E38F8DDB224BA508009EF306 /* MatrixHacker.m in Sources */,
 				E38F8DDE224BA528009EF306 /* MatrixHackerTests.m in Sources */,
-				E38F8DCA224A4825009EF306 /* RomanTranslator.m in Sources */,
+				F88251C9224E5A5A00EE2DA2 /* RomanTranslator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -441,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -453,7 +455,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/RSSchool_T2/Irrelevant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,7 +470,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/RSSchool_T2/Irrelevant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
