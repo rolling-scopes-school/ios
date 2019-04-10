@@ -40,7 +40,7 @@
 }
 
 - (void)test5 {
-  NSString *output = [self sanitize:[self.solution stringForNodeCount:13]];
+  NSString *output = [self sanitize:[self.solution stringForNodeCount:9]];
   XCTAssertTrue([output containsString:@"[0,0,0,null,null,0,0,null,null,0,0,null,null,0,0]"]);
   XCTAssertTrue([output containsString:@"[0,0,0,null,null,0,0,null,null,0,0,0,0]"]);
   XCTAssertTrue([output containsString:@"[0,0,0,null,null,0,0,0,0,0,0]"]);
