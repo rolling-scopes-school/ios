@@ -156,7 +156,7 @@
 
   [unitsCount tap];
   [unitsCount clearText];
-  [unitsCount typeText:@"2100"];
+  [unitsCount typeText:@"2106"];
 
   [unit tap];
   [unit clearText];
