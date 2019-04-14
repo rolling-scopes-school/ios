@@ -176,7 +176,7 @@
 
   [sub tapWithNumberOfTaps:5 numberOfTouches:1];
 
-  XCTAssertTrue(_app.staticTexts[@"11/09/2021 08:27"].exists);
+  XCTAssertTrue(_app.staticTexts[@"10/09/2021 20:27"].exists);
 
   [unitsCount tap];
   [unitsCount clearText];
@@ -188,7 +188,7 @@
 
   [add tap];
 
-  XCTAssertTrue(_app.staticTexts[@"11/09/2021 12:00"].exists);
+  XCTAssertTrue(_app.staticTexts[@"11/09/2021 00:00"].exists);
 }
 
 @end
